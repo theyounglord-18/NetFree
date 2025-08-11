@@ -54,6 +54,7 @@ app.get('/showData', async (req, res) => {
   res.send(data);
 });
 
-app.listen(3000, () => {
-  console.log('server started at 3000');
+app.listen(5000, () => {
+  console.log('server started at 5000');
 });
+
