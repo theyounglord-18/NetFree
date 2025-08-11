@@ -1,0 +1,21 @@
+version: "3.8"
+
+services:
+  backend:
+    build: ./NetlifyBackEND
+    container_name: backend
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./NetlifyBackEND:/app
+      - /app/node_modules        # prevents overwriting with Windows node_modules
+    environment:
+      - NODE_ENV=production
+
+  frontend:
+    build: ./freeMirror
+    container_name: netfree-frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
