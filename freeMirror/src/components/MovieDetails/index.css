@@ -1,0 +1,144 @@
+.movie-details {
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  font-family: 'Segoe UI', sans-serif;
+  color: white;
+}
+
+.backdrop-container {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.7); /* dulls the image */
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.details-content {
+  max-width: 800px;
+  text-align: center;
+  padding: 20px;
+  justify-content: center;
+}
+
+.movie-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  color: #ccc;
+  margin-bottom: 20px;
+}
+
+.poster-image {
+  width: 220px;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+}
+
+.movie-overview {
+  font-size: 1.1rem;
+  color: #ddd;
+  margin: 20px 0;
+  line-height: 1.6;
+}
+
+.details-content p {
+  margin: 8px 0;
+  font-size: 1rem;
+}
+
+.details-content p strong {
+  color: #fff;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 24px;
+  padding: 12px 24px;
+  background-color: #ff3c00;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.back-link:hover {
+  background-color: #e93200;
+}
+
+@media (max-width: 768px) {
+  .poster-image {
+    width: 160px;
+  }
+
+  .movie-title {
+    font-size: 2rem;
+  }
+
+  .movie-overview {
+    font-size: 1rem;
+  }
+}
+    
+
+.watchlater{
+  background-color: transparent;
+  color: white;
+  padding: 10px 20px;
+  border: 2px solid #ff3c00;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease;   
+  margin-top: 20px;
+}
+
+.watchlater:hover {
+  background-color: #ff3c00;
+  color: white;
+}
+
+.button-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.button-container>*{
+  margin-right: 10px;
+}
+
+.addedBro{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.addedBro>*{
+  margin-right: 10px;
+}

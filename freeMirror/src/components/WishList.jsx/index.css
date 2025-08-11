@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+}
+.watchLater-page {
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;       
+  gap: 20px;                     
+  padding: 20px;                 
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden;           
+}
+
+.movieCard {
+  width: 300px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background-color: #111;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.movieCard:hover {
+  transform: scale(1.05);
+}
+
+.poster-image {
+  /* width: 100%; */
+  border-radius: 12px;
+}
+
+.titlename {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 1rem;
+  color: white;
+}

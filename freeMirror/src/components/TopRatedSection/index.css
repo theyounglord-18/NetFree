@@ -1,0 +1,74 @@
+.topsection {
+  margin-top: 30px;
+  background-color: black;
+}
+
+.headingname {
+  font-size: 20px;
+  color: coral;
+}
+
+.ratedsection {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.titlename {
+  color: white;
+  font-size: 14px;
+}
+
+.movieCard {
+  text-align: center;
+  margin: 10px;
+  border: solid;
+  border-radius: 20px;
+  border-color: white;
+  border-width: 1px;
+  max-width: fit-content;
+}
+
+.poster-image {
+  height: 300px;
+  border-radius: 20px;
+}
+
+.topratedsection {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.movieDetails {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.nextpage {
+  background-color: black;
+}
+.arrow-icon {
+  width: 24px;
+  height: 24px;
+  color: #1e40af; /* Dark blue */
+  transition: transform 0.2s ease;
+}
+
+.prevpage,
+.nextpage {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.prevpage:hover .arrow-icon,
+.nextpage:hover .arrow-icon {
+  transform: scale(1.2);
+  color: #0ea5e9; 
+}

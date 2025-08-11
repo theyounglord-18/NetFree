@@ -1,0 +1,122 @@
+.drop{
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  border-width: 0px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+
+.drop option{
+  background-color: black;
+}
+
+.tvlist-container {
+  background-color: #111;
+  color: white;
+  padding: 20px;
+}
+
+.tvlist-title {
+  color: #e50914;
+  margin-bottom: 20px;
+}
+
+.tvlist-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+}
+
+.tvlist-card {
+  cursor: pointer;
+  text-align: center;
+}
+
+.tvlist-poster {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.tvlist-name {
+  margin-top: 10px;
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.genrefilter{
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: center;
+}
+
+.genrefilter>*{
+  margin-right: 10px;
+}
+
+.genreName{
+  color: red  ;
+  
+}
+
+.popular{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popular>*{
+  margin-right: 10px;
+}
+
+.popular button{
+  background-color: transparent;
+  border-width: 0px;
+}
+
+.fil{
+  display: flex;
+  flex-direction: row;
+}
+
+.fil>*{
+  margin-right: 10px;
+}
+
+.tvlist-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.tvlist-card {
+  background-color: #111;
+  border-radius: 12px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  max-width: 200px;
+  margin: auto; /* Center the single card */
+}
+
+.tvlist-card:hover {
+  transform: scale(1.05);
+}
+
+.tvlist-poster {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.tvlist-name {
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 1rem;
+}

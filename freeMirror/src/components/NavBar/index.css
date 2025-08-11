@@ -1,0 +1,105 @@
+*{
+    text-decoration: none;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+}
+
+.logcat{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo{
+    color: red;
+    margin: 0px 50px 0px 20px;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.categories{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: crimson;
+}
+
+.categories *{
+    margin: 10px;
+}
+
+.rightpart{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.searchBar{
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 300px;
+    margin-right: 30px;
+    border: 0px;
+    border-radius: 30px;
+}
+
+.search-container {
+  position: relative;
+  width: 250px;
+  margin-right: 20px;
+}
+
+.search-container input {
+  width: 100%;
+  padding: 10px 35px 10px 10px;
+  font-size: 16px;
+  height: 50px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  background-color: black;
+}
+
+.search-container .search-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 18px;
+  pointer-events: none;
+}
+
+
+.authSec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.authSec * {
+    margin-right: 10px;
+}
+
+.auth{
+    background-color: tomato;
+    height: 40px;
+    width: 100px;
+    color: white;
+    font-weight: bold;
+    border: 0px;
+    border-radius: 20px;
+}
+
+h3{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
