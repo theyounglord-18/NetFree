@@ -17,8 +17,8 @@ const LoginPage = () => {
   const handleSubmit = () => {
     const userDetails = { email, password };
     const url = isLogin
-      ? 'http://34.55.24.196:5000/login'
-      : 'http://34.55.24.196:5000/register';
+      ? 'http://34.31.27.59:5000/login'
+      : 'http://34.31.27.59:5000/register';
 
     const options = {
       method: 'POST',
